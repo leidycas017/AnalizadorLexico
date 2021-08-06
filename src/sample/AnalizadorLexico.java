@@ -1093,7 +1093,6 @@ public class AnalizadorLexico {
                 case 29:
                     if (simbolo == ' ') {
                         estado = 32;
-                        //System.out.println("error palabra true reservada");
                         def = false;
                     } else if ((codigoAscii >= 65 && codigoAscii <= 90)
                             || (codigoAscii >= 97 && codigoAscii <= 122)
@@ -1102,7 +1101,6 @@ public class AnalizadorLexico {
                         estado = 31;
                     } else {
                         estado = 32;
-                        //System.out.println("Error falta espacio o ingresó simbolo incorrecto");
                         def = false;
                     }
                     break;
