@@ -1107,7 +1107,6 @@ public class AnalizadorLexico {
                     }
                     break;
                 case 30:
-                    //System.out.println("Error al iniciar variable con número");
                     def = false;
                     i = nombre.length() + 1;
                     estado = 0;
@@ -1126,23 +1125,17 @@ public class AnalizadorLexico {
                     }
                     break;
                 case 32:
-                    //System.out.println("Variable con simbolos incorrectos");
-
                     i = nombre.length() + 1;
-                    //estado = 0;
                     break;
                 case 33:
-                    //System.out.println("Variable aceptable");
-                    //def = false;
-                    //def = false;
                     estado = 32;
                     i = nombre.length() + 1;
 
                     break;
 
-            }//fin switch estado variable
+            }
 
-        }// fin for
+        }
 
         if (estado == 33) {
             def = false;
