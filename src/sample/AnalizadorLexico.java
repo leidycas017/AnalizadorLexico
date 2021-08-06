@@ -1037,7 +1037,6 @@ public class AnalizadorLexico {
                         estado = 31;
                     } else {
                         estado = 32;
-                        //System.out.println("Error falta espacio o ingresó simbolo incorrecto");
                         def = false;
                     }
                     break;
