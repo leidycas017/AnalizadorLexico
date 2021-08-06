@@ -1,0 +1,8 @@
+int num, b, c;
+char b=(a*5)&&true;
+My_number_b -= b;
+char n = "Texto de ejemplo";
+n +=3;
+a = a + - b;
+int true;
+b = ((6+2)-4;

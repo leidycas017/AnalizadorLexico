@@ -1,0 +1,5 @@
+char b=(a*5)&&true;
+char n = "Texto de ejemplo";
+a = a + - b;
+int true;
+b = ((6+2)-4;

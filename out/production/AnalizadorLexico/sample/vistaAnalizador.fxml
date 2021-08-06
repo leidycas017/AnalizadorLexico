@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="476.0" style="-fx-background-color: TRANSPARENT;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="59.0" layoutY="23.0" prefHeight="45.0" prefWidth="696.0" style="-fx-background-color: #041a45;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton layoutX="513.0" layoutY="8.0" onAction="#callLexico" text="Analizar" textFill="#f8f8f8" AnchorPane.rightAnchor="70.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="613.0" layoutY="8.0" onAction="#callExit" text="Salir" textFill="#f8f8f8" AnchorPane.rightAnchor="20.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children></AnchorPane>
+      <AnchorPane fx:id="escenaUno" layoutY="61.0" prefHeight="279.0" prefWidth="476.0" style="-fx-background-color: #041a45;" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
+         <children>
+            <ImageView fitHeight="280.0" fitWidth="476.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/analizador.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
